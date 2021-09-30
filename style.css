@@ -1,0 +1,160 @@
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+        .box-item-1{
+            display: flex;
+            flex-grow: .50;
+        }
+        .box-item-2{
+            display: flex;
+            flex-grow: .50;
+        }
+        .box-item-3{
+         display: flex;
+         flex-grow: 2;
+    
+        }
+        .box-item-4{
+            display: flex;
+           flex-grow: 1;
+        }
+        .box-item-5{
+         display: flex;
+         
+    
+        }
+        .box-item-6{
+         display: flex;
+            
+   
+        }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue{
+    display: flex;
+    
+    align-self: stretch;
+
+}
+.control{
+    display: flex;
+    justify-content: space-around;
+    
+}
+    .control-item-1{
+        display: flex;
+        flex-grow: 1.3;
+        flex-shrink: 0;
+    
+    }
+
+    .control-item-2{
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+    .control-item-3{
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+    .control-item-4{
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+    .control-item-5{
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+    .control-item-6{
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+
+
+    .y-button{
+   
+    padding:5px 160px;
+}
+#fname{
+    padding:3px 100px;
+}
+#lname{
+    padding:3px 100px;
+}
+
+
+.divider{
+    text-align: center;
+    position: relative;
+    
+}
+/* I peaked at the Amazon login to do this bit */
+
+
+.divider-line{
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    border-top: .50px solid grey;
+    position: absolute;
+    top: 50%;
+}
+.create-account{
+    display: flex;
+    justify-content: center;
+    
+}
+.w-button{
+    padding:5px 150px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+    flex-shrink: 0;
+}
+.privacy-info-0{
+    display: flex;
+    flex-grow: 1;
+}
+.privacy-info-1{
+    display: flex;
+    flex-grow: .80;
+    flex-shrink: 0;
+}
+.privacy-info-2{
+    display: flex;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+.privacy-info-3{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.privacy-info-4{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.copy-right{
+    text-align: center;
+}
